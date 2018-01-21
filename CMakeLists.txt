@@ -3,6 +3,7 @@ project(libmc C)
 
 set(CMAKE_C_STANDARD 11)
 
-set(libmc_sources libmc/host.h libmc/host.c)
+set(libmc_headers include/host.h)
+set(libmc_sources src/host.c)
 
-add_library(libmc)
+add_library(libmc ${libmc_headers} ${libmc_sources})
