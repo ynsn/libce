@@ -47,12 +47,12 @@
  * Returns the version string
  * @return Char array containing the version string
  */
-const char *mc_get_version(void);
+const char *mc_version(void);
 
 /**
  * Returns the full version string
  * @return Char array containing the full version string
  */
-const char *mc_get_full_version(void);
+const char *mc_full_version(void);
 
 #endif //LIBMC_VERSION_H
