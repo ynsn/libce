@@ -22,3 +22,5 @@
  * SOFTWARE.
  */
 
+#include "ce.h"
+
