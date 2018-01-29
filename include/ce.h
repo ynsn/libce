@@ -25,6 +25,16 @@
 #ifndef LIBCE_CE_H
 #define LIBCE_CE_H
 
+#if defined(LIBCE_BUILD_SHARED)
+# ifdef _WIN32
+#   define CE_EXPORT __declspec(dllexport)
+# elif __GNUC__ >= 4
+#   define CE_EXPORT __attribute__((visibility("default")))
+# endif
+#else
+#define CE_EXPORT
+#endif
+
 #include "version.h"
 #include "host.h"
 
