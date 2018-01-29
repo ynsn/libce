@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 
-#ifndef LIBMC_HOST_H
-#define LIBMC_HOST_H
+#ifndef LIBCE_HOST_H
+#define LIBCE_HOST_H
 
-#endif //LIBMC_HOST_H
+#endif //LIBCE_HOST_H

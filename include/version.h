@@ -22,10 +22,12 @@
  * SOFTWARE.
  */
 
-#ifndef LIBMC_VERSION_H
-#define LIBMC_VERSION_H
+#ifndef LIBCE_VERSION_H
+#define LIBCE_VERSION_H
 
-#define MC_NAME "libmc"
+#include "ce.h"
+
+#define MC_NAME "libce"
 
 /*
  * This library follows the semantic versioning 2.0 specifications.
@@ -37,22 +39,22 @@
  * Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
  */
 
-#define MC_VERSION_MAJOR 1
-#define MC_VERSION_MINOR 0
-#define MC_VERSION_PATCH 0
+#define CE_VERSION_MAJOR 1
+#define CE_VERSION_MINOR 0
+#define CE_VERSION_PATCH 0
 
-#define MC_VERSION_SUFFIX "dev"
+#define CE_VERSION_SUFFIX "dev"
 
 /**
  * Returns the version string
  * @return Char array containing the version string
  */
-const char *mc_version(void);
+const char *ce_version(void);
 
 /**
  * Returns the full version string
  * @return Char array containing the full version string
  */
-const char *mc_full_version(void);
+const char *ce_full_version(void);
 
-#endif //LIBMC_VERSION_H
+#endif //LIBCE_VERSION_H

@@ -22,24 +22,24 @@
  * SOFTWARE.
  */
 
-#include "mc.h"
+#include "ce.h"
 
 // Macro string helpers
-#define MC_MACRO_STRING(s) #s
-#define MC_STRINGIFY(s) MC_MACRO_STRING(s)
+#define CE_MACRO_STRING(s) #s
+#define CE_STRINGIFY(s) CE_MACRO_STRING(s)
 
 // Macro string
-#define MC_VERSION_STRING \
-    MC_STRINGIFY(MC_VERSION_MAJOR) "." \
-    MC_STRINGIFY(MC_VERSION_MINOR) "." \
-    MC_STRINGIFY(MC_VERSION_PATCH) "-"  MC_VERSION_SUFFIX
+#define CE_VERSION_STRING \
+    CE_STRINGIFY(CE_VERSION_MAJOR) "." \
+    CE_STRINGIFY(CE_VERSION_MINOR) "." \
+    CE_STRINGIFY(CE_VERSION_PATCH) "-"  CE_VERSION_SUFFIX
 
 /**
  * Returns the version string
  * @return Char array containing the version string
  */
 const char *mc_version() {
-  return MC_VERSION_STRING;
+  return CE_VERSION_STRING;
 }
 
 /**
@@ -47,5 +47,5 @@ const char *mc_version() {
  * @return Char array containing the full version string
  */
 const char *mc_full_version() {
-  return MC_NAME " " MC_VERSION_STRING;
+  return MC_NAME " " CE_VERSION_STRING;
 }

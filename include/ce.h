@@ -22,10 +22,10 @@
  * SOFTWARE.
  */
 
-#ifndef LIBMC_MC_H
-#define LIBMC_MC_H
+#ifndef LIBCE_CE_H
+#define LIBCE_CE_H
 
 #include "version.h"
 #include "host.h"
 
-#endif //LIBMC_MC_H
+#endif //LIBCE_CE_H
