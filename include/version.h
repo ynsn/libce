@@ -27,7 +27,7 @@
 
 #include "ce.h"
 
-#define MC_NAME "libce"
+#define CE_NAME "libce"
 
 /*
  * This library follows the semantic versioning 2.0 specifications.
