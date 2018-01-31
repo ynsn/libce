@@ -47,5 +47,5 @@ const char *mc_version() {
  * @return Char array containing the full version string
  */
 const char *mc_full_version() {
-  return MC_NAME " " CE_VERSION_STRING;
+  return CE_NAME " " CE_VERSION_STRING;
 }
