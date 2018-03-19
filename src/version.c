@@ -38,7 +38,7 @@
  * Returns the version string
  * @return Char array containing the version string
  */
-const char *mc_version() {
+const char *ce_version() {
   return CE_VERSION_STRING;
 }
 
@@ -46,6 +46,6 @@ const char *mc_version() {
  * Returns the full version string
  * @return Char array containing the full version string
  */
-const char *mc_full_version() {
+const char *ce_full_version() {
   return CE_NAME " " CE_VERSION_STRING;
 }
